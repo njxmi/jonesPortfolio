@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-US">
+<title>Deliverable 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<body style="background-color:gray;">
+<!-- Header -->
+<header class="nj-display-container nj-content nj-center" style="max-width:1500px">
+  <img class="nj-image" src="https://images-assets.nasa.gov/image/iss048e028394/iss048e028394~medium.jpg" alt="Noctilucent Clouds" width="1500" height="600">
+  <div class="nj-display-middle nj-padding-large nj-border nj-wide nj-text-light-grey nj-center">
+    <h1 class="nj-hide-medium nj-hide-small nj-xxxlarge">NICOLE JONES</h1>
+ 
+    <h3 class="nj-hide-medium nj-hide-small">Front-end bootcamp student</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="nj-bar nj-light-grey nj-round nj-display-bottommiddle nj-hide-small" style="bottom:-16px">
+    <a href="#" class="nj-bar-item nj-button">Home</a>
+    <a href="#photos" class="nj-bar-item nj-button">Photos</a>
+	<a href="#about" class="nj-bar-item nj-button">About Me</a>
+    <a href="#contact" class="nj-bar-item nj-button">Contact</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="nj-center nj-light-grey nj-padding-16 nj-hide-large nj-hide-medium">
+<div class="nj-bar nj-light-grey">
+  <a href="#" class="nj-bar-item nj-button">Home</a>
+  <a href="#photos" class="nj-bar-item nj-button">Photos</a>
+	<a href="#about" class="nj-bar-item nj-button">About Me</a>
+  <a href="#contact" class="nj-bar-item nj-button">Contact</a>
+</div>
+</div>
+<!-- Page content -->
+<div class="nj-content nj-padding-large nj-margin-top" id="photos">
+
+  <!-- Images -->
+   <img src="https://images-assets.nasa.gov/image/as16-113-18339/as16-113-18339~medium.jpg" alt="Astronaut on moon surface saluting an American flag next to Apollo 16" class="nj-image" width="1000" height="500">
+  <img src="https://images-assets.nasa.gov/image/6900952/6900952~medium.jpg" alt="astronaut standing on the moon" class="nj-image nj-margin-top" width="1000" height="500">
+  <img src="https://images-assets.nasa.gov/image/0202795/0202795~medium.jpg" alt="A view of planet earth from space" class="nj-image nj-margin-top" width="1000" height="500">
+  <img src="https://images-assets.nasa.gov/image/PIA11132/PIA11132~small.jpg" alt="surface of planet Mars" class="nj-img" width="1000" height="500">
+  <img src="https://images-assets.nasa.gov/image/s135e011814/s135e011814~medium.jpg" alt="The International Space station floating over earth" class="nj-image nj-margin-top" width="1000" height="500">
+<hr>
+	<h2 class="nj-center">About Me</h2>
+	<p>In real life I am a student at a front-end bootcamp, but I may pretend to be an astronaut to make things more interesting while designing web pages for assignments.</p>
+	<p>Are you interested in visiting the planet Mars one day? <abbr>NASA</abbr> may be interested in hiring you if you are. According the their website:<br>
+<blockquote cite="https://www.nasa.gov/audience/forstudents/postsecondary/features/F_Astronaut_Requirements.html">Within the next few decades, humans could be leaving their footprints on the Red Planet! That's the plan, as NASA continues to prepare to expand human exploration in the solar system. Astronauts currently work as scientists on the International Space Station -- the test bed for cutting-edge research and technologies that will enable human and robotic exploration of destinations beyond the station's low-Earth orbit. The Orion spacecraft atop the Space Launch System (SLS) rocket will carry humans farther into space then they have gone before -- beyond the moon and eventually to Mars.</blockquote><br>
+<p>Some of the requirements to become an astronaut are:</p>
+<ol><li>A bachelor's degree in engineering, biological science, physical science, computer science or mathematics.</li>
+<li>At least three years of related professional experience obtained after degree completion OR at least 1,000 hours pilot-in-command time on jet aircraft.</li>
+<li>The ability to pass the NASA long-duration astronaut physical. Distant and near visual acuity must be correctable to 20/20 for each eye. The use of glasses is acceptable.</li>
+
+  <hr>
+	<h3 class="nj-center">Contact</h3>
+    <p>I am not actually collecting data on here, but feel free to test out the input form I created! </p>
+
+    <form action="/action_page.php" target="_blank">
+      <div class="nj-section">
+        <label>Name</label>
+        <input class="nj-input nj-border" type="text" required name="Name">
+      </div>
+      <div class="nj-section">
+        <label>Email</label>
+        <input class="nj-input nj-border" type="text" required name="Email">
+      </div>
+      <div class="nj-section">
+        <label>Message</label>
+        <input class="nj-input nj-border" required name="Message">
+      </div>
+      <button type="submit" class="nj-button nj-block nj-dark-grey">Send</button>
+    </form><br>
+    <p>Photos courtesy of <abbr>NASA <a href="http://www.nasa.gov" target="_blank">nasa.gov</a></p>
+
+  </div>
+
+</div>
+
+</body>
+</html>

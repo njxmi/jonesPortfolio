@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.toppic {
+		height: 300px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+
+h3 {
+	color: white;
+	text-align: center;
+}
+
+html {
+  background-color: black;
+}
+
+.grid {
+  margin: 20px;
+  padding: 10px;
+  background-color: gray;
+  
+}
+
+.tile {
+	 height: 200px;
+	
+}
+
+.tile img {
+    max-width: 100%;
+}

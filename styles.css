@@ -1,0 +1,24 @@
+<!-- this one is causing my nav bar to disappear -->
+
+h1 { 
+	font-color;black
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+body { margin: 0; background: #333; }
+
+header { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+
+}

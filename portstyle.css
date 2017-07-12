@@ -3,6 +3,15 @@ html, body {
   padding: 0;
   min-height: 100%;
 }
+html {
+  background-color: black;
+}
+
+.navbar { 
+position: fixed;
+    left: 0px;
+    top: 0px;
+}
 
 .toppic {
 		height: 300px;
@@ -13,28 +22,38 @@ h1 {
 	text-align: center;
 }
 
-
-h3 {
+h2 {
 	color: white;
 	text-align: center;
 }
 
-html {
-  background-color: black;
+h3 {
+	color: orange;
+	text-align: center;
+}
+
+P {
+	text-align: center;
 }
 
 .grid {
-  margin: 20px;
-  padding: 10px;
+  margin-left: 0px
+  margin-right: auto;
+  padding: 1px;
   background-color: gray;
-  
 }
 
+
 .tile {
-	 height: 200px;
+	display: inline-block;
+   height: 30%;
+   width: 30%;
+   margin-top: 10px
+   padding: 2px
+	
 	
 }
 
 .tile img {
-    max-width: 100%;
+	width:100%
 }

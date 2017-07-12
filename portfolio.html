@@ -4,90 +4,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="portstyle.css">
-<title> Portfolio </title>
+<link rel="stylesheet" href="styles.css">
+
+<title>Homepage</title>
+
+
 </head>
-<!-- end head section, everything else in body -->
+
 <body>
-<!-- Navbar  -->
-  <div class="navbar" style="bottom:-16px">
-    <a href="#">Home</a>
-    <a href="#">Portfolio</a>
-	<a href="#">About Me</a>
-    <a href="#">Contact</a>
-  </div>
-<!-- Original Header -->
-  <img class="toppic" src="NASAimages/northern-lights.jpg" alt="view of northern lights from space" width="1500" height="600">
-  
- <header>
- <div class="toptext">
-    <h1> NICOLE JONES </h1>
+
+<!-- Header -->
+<div class="nj-display-container nj-content nj-center" style="max-width:1500px">
+  <img class="nj-image" src="northern lights.jpg" alt="view of northern lights from space">
+  <div class="nj-display-middle nj-padding-large nj-border nj-wide nj-text-light-grey nj-center">
+    <h1 style="font-family:courier;" class="nj-hide-medium nj-hide-small nj-xxxlarge">NICOLE JONES</h1>
  
-    <h2> front-end bootcamp portfolio</h2>
-  </div> </header>
-  
-
+    <h3>Front-end bootcamp student</h3>
+  </div>
   
   
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="nj-bar nj-light-grey nj-round nj-display-bottommiddle nj-hide-small" style="bottom:-16px">
+    <a href="#">Home</a>
+    <a href="portfolio">Portfolio</a>
+	<a href="resume.html">Resume </a>
+	<a href="aboutMe.html">About Me</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+<!-- Page content -->
 
-<h1> PORTFOLIO </h1>
 
+	
+  <hr>
+	<h2>Do you need to know the current date and time?</h2>
 
-<div class="grid">
- <!-- 1 -->
-<div class="tile">
-   <a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
-<!-- 2 -->
-<div class="tile">
-    <a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
-<!-- 3 -->
-<div class="tile">
-	<a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p> 
-	</div>
-<!-- 4 -->	
-<div class="tile">
-	<a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
-<!-- 5 -->	
-<div class="tile">
-	<a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
-<!-- 6 -->	
-<div class="tile">
-	<a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
-<!-- 7 -->
-<div class="tile">
-	<a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
-<!-- 8 -->
-<div class="tile">
-	<a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
-<!-- 9 -->
-<div class="tile">
-	<a href="#"><img src="NASAimages/yellow-star.jpg"/></a>
-	<h3>project</h3>
-    <p>Under construction!</p>
-	</div>
+<button type="button"
+onclick="document.getElementById('demotime').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demotime"></p>
+    <p>Photos courtesy of <abbr>NASA</abbr> <a href="http://www.nasa.gov" target="_blank">nasa.gov</a></p>
+
+  </div>
 
 </div>
 
